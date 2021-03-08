@@ -3,9 +3,10 @@
 #### ŁUKASZ STANISZEWSKI
 
 ### I. HOW TO:
++ USE LINUX OS!
 + ADD .BMP (BLACK-WHITE) IMAGE FILE TO MAIN DIRECTORY
 + CHANGE FILE NAME IN <i><b>project.c</b></i> FILE:
-```
+```cpp
 	int main(int argc, char* argv[])
 	{
 		imgInfo* pInfo;
@@ -20,6 +21,13 @@
 			change_headder(pInfo);
 			...
 ```
+
 + THROUGH SYSTEM CONSOLE CHANGE DIRECTORY TO PROJECT'S DIR AND TYPE:
-```make all```
+```
+make all
+```
++ NEXT TYPE IN CONSOLE:
+```
+./program
+```
 + RESULT IMAGE IS IN <i><b>result.bmp</b></i> FILE
